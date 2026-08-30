@@ -18,6 +18,11 @@ web-build/
 cmake-3.31.6/
 local.properties
 
+# Android 签名密钥
+*.keystore
+*.jks
+key.properties
+
 # 锁文件视项目约定
 # pnpm-lock.yaml
 
