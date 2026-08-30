@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
+
+# native
+android/
+ios/
+
+# generated
+*.lock
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# misc
+coverage/
+*.log
+.DS_Store
+.env*.local
+
+# cmake（本项目本地工具）
+cmake-3.31.6/

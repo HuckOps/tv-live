@@ -1,0 +1,36 @@
+{
+  "name": "with-tv",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "prebuild:tv": "cross-env EXPO_TV=1 expo prebuild --clean",
+    "prebuild": "cross-env EXPO_TV=0 expo prebuild --clean",
+    "lint": "expo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~57.0.13",
+    "expo-dev-client": "~57.0.16",
+    "expo-splash-screen": "~57.0.6",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "npm:react-native-tvos@0.86-stable",
+    "react-native-safe-area-context": "^5.9.1",
+    "react-native-video": "^6.19.2",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@react-native-tvos/config-tv": "^0.1.6",
+    "@types/react": "~19.2.2",
+    "cross-env": "^7.0.3",
+    "prettier": "^3.9.6",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
