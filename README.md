@@ -6,37 +6,37 @@
 
 ## ✨ 功能
 
-* 📺 IPTV 电视直播播放
-* 📋 M3U / M3U8 播放列表解析
-* 🔀 单个频道支持多个直播源
-* ♻️ 直播源自动故障切换
-* ⏱️ 直播源加载超时自动切换
-* 🔄 所有直播源失败后循环尝试
-* ⬆️⬇️ 上下键切换频道
-* ⬅️➡️ 左右键切换直播源
-* 🎮 TV 遥控器操作
-* 📑 双栏频道选择菜单
-* 📂 频道分组
-* 🎯 打开菜单时自动定位当前频道
-* 📡 显示当前使用的串流源
-* 📊 显示实时带宽
-* 🎬 全屏播放
-* 📱 TypeScript 开发
+- 📺 IPTV 电视直播播放
+- 📋 M3U / M3U8 播放列表解析
+- 🔀 单个频道支持多个直播源
+- ♻️ 直播源自动故障切换
+- ⏱️ 直播源加载超时自动切换
+- 🔄 所有直播源失败后循环尝试
+- ⬆️⬇️ 上下键切换频道
+- ⬅️➡️ 左右键切换直播源
+- 🎮 TV 遥控器操作
+- 📑 双栏频道选择菜单
+- 📂 频道分组
+- 🎯 打开菜单时自动定位当前频道
+- 📡 显示当前使用的串流源
+- 📊 显示实时带宽
+- 🎬 全屏播放
+- 📱 TypeScript 开发
 
 ## 🖥️ 运行环境
 
 目前主要针对：
 
-* Android TV
-* Android TV Emulator
-* 支持 Android TV 的设备
+- Android TV
+- Android TV Emulator
+- 支持 Android TV 的设备
 
 主要技术：
 
-* React Native TV
-* React Native
-* TypeScript
-* react-native-video
+- React Native TV
+- React Native
+- TypeScript
+- react-native-video
 
 ## 📦 安装
 
@@ -93,11 +93,11 @@ https://example.com/cctv5.m3u8
 
 支持解析：
 
-* `tvg-id`
-* `tvg-name`
-* `tvg-logo`
-* `group-title`
-* Stream URL
+- `tvg-id`
+- `tvg-name`
+- `tvg-logo`
+- `group-title`
+- Stream URL
 
 同一个频道存在多个直播源时，会自动合并：
 
@@ -151,10 +151,10 @@ Source 1
 
 ### 播放器
 
-| 按键          | 功能     |
-| ----------- | ------ |
-| ↑           | 上一个频道  |
-| ↓           | 下一个频道  |
+| 按键        | 功能         |
+| ----------- | ------------ |
+| ↑           | 上一个频道   |
+| ↓           | 下一个频道   |
 | ←           | 上一个直播源 |
 | →           | 下一个直播源 |
 | OK / Select | 打开频道菜单 |
@@ -162,13 +162,13 @@ Source 1
 
 ### 频道菜单
 
-| 按键   | 功能         |
-| ---- | ---------- |
-| ↑    | 上移         |
-| ↓    | 下移         |
-| ←    | 切换到分组      |
-| →    | 切换到频道      |
-| OK   | 确认         |
+| 按键 | 功能              |
+| ---- | ----------------- |
+| ↑    | 上移              |
+| ↓    | 下移              |
+| ←    | 切换到分组        |
+| →    | 切换到频道        |
+| OK   | 确认              |
 | Back | 返回上一级 / 关闭 |
 
 ## 📋 频道选择菜单
@@ -193,11 +193,11 @@ Source 1
 
 支持：
 
-* 分组导航
-* 频道导航
-* 当前频道定位
-* 频道数量显示
-* 直播源数量显示
+- 分组导航
+- 频道导航
+- 当前频道定位
+- 频道数量显示
+- 直播源数量显示
 
 ## 📡 直播源信息
 
@@ -257,15 +257,13 @@ App
 可以在代码中配置 M3U 播放列表地址：
 
 ```ts
-const SOURCE_URL =
-  'https://example.com/playlist.m3u';
+const SOURCE_URL = 'https://example.com/playlist.m3u';
 ```
 
 替换为自己的播放列表即可：
 
 ```ts
-const SOURCE_URL =
-  'https://example.com/iptv/playlist.m3u';
+const SOURCE_URL = 'https://example.com/iptv/playlist.m3u';
 ```
 
 ## ⚠️ 免责声明
@@ -278,14 +276,14 @@ const SOURCE_URL =
 
 ## 🛠️ 开发计划
 
-* [ ] EPG 节目单
-* [ ] XMLTV 支持
-* [ ] 收藏频道
-* [ ] 播放源测速
-* [ ] 播放源质量评分
-* [ ] 自动选择最佳直播源
-* [ ] 设置页面
-* [ ] 播放历史
+- [ ] EPG 节目单
+- [ ] XMLTV 支持
+- [ ] 收藏频道
+- [ ] 播放源测速
+- [ ] 播放源质量评分
+- [ ] 自动选择最佳直播源
+- [ ] 设置页面
+- [ ] 播放历史
 
 ## 🤝 Contributing
 
